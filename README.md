@@ -14,3 +14,15 @@ yarn start
 npx sb init
 yarn storybook
 ```
+
+```shell script
+npx degit chromaui/intro-storybook-react-template taskbox
+cd taskbox
+yarn
+yarn storybook
+yarn start
+yarn test
+```
+
+Source:
+- https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/
