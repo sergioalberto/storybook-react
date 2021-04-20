@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="nav-bar"></div>
-
+    <div class="cart">Cart({{ cart }})</div>
     <div class="product-display">
       <div class="product-container">
         <div class="product-image">
@@ -12,6 +12,18 @@
           <p v-if="inventory > 10">In Stock</p>
           <p v-else-if="inventory <= 10 && inventory > 0">Almost sold out!</p>
           <p v-else>Out of Stock</p>
+
+          <ul>
+            <li v-for="detail in details"> - {{detail}}</li>
+          </ul>
+          <div
+            v-for="variant in variants"
+            :key="variant.id"
+            class="color-circle"
+            @mouseover="updateImage(variant.image)"
+            :style="{backgroundColor: variant.color}"
+            ></div>
+          <button class="button" v-on:click="addToCart" :disabled="inventory <= 0" :class="{disabledButton: inventory <= 0}">Add to Cart</button>
         </div>
       </div>
     </div>
@@ -24,21 +36,30 @@
   export default defineComponent({
     data() {
       return {
+        cart: 0,
         product: 'Socks',
         image: './src/assets/socks_green.jpg',
-        inventory: 18
+        inventory: 18,
+        details: ['50% cotton', '30% wool', '20% polyester'],
+        variants: [
+          { id: 2234, color: 'green', image: './src/assets/socks_green.jpg' },
+          { id: 2235, color: 'blue', image: './src/assets/socks_blue.jpg' }
+        ]
+      }
+    },
+    methods: {
+      addToCart() {
+        this.cart += 1;
+        this.inventory -= 1;
+      },
+      updateImage(image: string){
+        this.image = image;
       }
     }
   })
 </script>
 
   <style scoped>
-    body {
-      background-color: #f2f2f2;
-      margin: 0px;
-      font-family: tahoma;
-      color: #282828;
-    }
 
     .button {
       margin: 30px;
@@ -74,7 +95,6 @@
       border: 2px solid #d8d8d8;
       border-radius: 50%;
     }
-
 
     .disabledButton {
       background-color: #d8d8d8;
