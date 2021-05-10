@@ -6,11 +6,12 @@ import { createStore } from 'redux';
 export const actions = {
     ARCHIVE_TASK: 'ARCHIVE_TASK',
     PIN_TASK: 'PIN_TASK',
+    TASK_INBOX: 'TASK_INBOX',
 };
 
 // The action creators bundle actions with the data required to execute them
 export const archiveTask = id => ({ type: actions.ARCHIVE_TASK, id });
-export const pinTask = id => ({ type: actions.PIN_TASK, id });
+export const pinTask = (id, state) => ({ type: (state === 'TASK_PINNED') ? actions.TASK_INBOX: actions.PIN_TASK, id });
 
 // All our reducers simply change the state of a single task.
 function taskStateReducer(taskState) {
@@ -31,6 +32,8 @@ export const reducer = (state, action) => {
             return taskStateReducer('TASK_ARCHIVED')(state, action);
         case actions.PIN_TASK:
             return taskStateReducer('TASK_PINNED')(state, action);
+        case actions.TASK_INBOX:
+            return taskStateReducer('TASK_INBOX')(state, action);
         default:
             return state;
     }

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Task from './Task';
-
 import { connect } from 'react-redux';
 import { archiveTask, pinTask } from '../lib/redux';
 
@@ -77,6 +76,6 @@ export default connect(
     }),
     dispatch => ({
         onArchiveTask: id => dispatch(archiveTask(id)),
-        onPinTask: id => dispatch(pinTask(id)),
+        onPinTask: (id, state) => dispatch(pinTask(id, state)),
     })
 )(PureTaskList);
