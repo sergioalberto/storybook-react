@@ -2941,16 +2941,16 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storyshots@^6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/addon-storyshots/-/addon-storyshots-6.2.7.tgz#4ebf0844e61091a019eaa7fa11181d12eb69e97d"
-  integrity sha1-Tr8IROYQkaAZ6qf6ERgdEutp6X0=
+"@storybook/addon-storyshots@^6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/addon-storyshots/-/addon-storyshots-6.2.9.tgz#505b66c99c58b9200526ba14d66b68f80e114469"
+  integrity sha1-UFtmyZxYuSAFJroU1mto+A4RRGk=
   dependencies:
     "@jest/transform" "^26.6.2"
-    "@storybook/addons" "6.2.7"
-    "@storybook/client-api" "6.2.7"
-    "@storybook/core" "6.2.7"
-    "@storybook/core-common" "6.2.7"
+    "@storybook/addons" "6.2.9"
+    "@storybook/client-api" "6.2.9"
+    "@storybook/core" "6.2.9"
+    "@storybook/core-common" "6.2.9"
     "@types/glob" "^7.1.3"
     "@types/jest" "^26.0.16"
     "@types/jest-specific-snapshot" "^0.5.3"
@@ -3008,17 +3008,17 @@
     global "^4.3.2"
     regenerator-runtime "^0.13.7"
 
-"@storybook/addons@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/addons/-/addons-6.2.7.tgz#f31343654e564dd91f1ec103f130fa23e996745b"
-  integrity sha1-8xNDZU5WTdkfHsED8TD6I+mWdFs=
+"@storybook/addons@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/addons/-/addons-6.2.9.tgz#b7ba2b9f0e15b852c7d6b57d04fb0a493c57477c"
+  integrity sha1-t7ornw4VuFLH1rV9BPsKSTxXR3w=
   dependencies:
-    "@storybook/api" "6.2.7"
-    "@storybook/channels" "6.2.7"
-    "@storybook/client-logger" "6.2.7"
-    "@storybook/core-events" "6.2.7"
-    "@storybook/router" "6.2.7"
-    "@storybook/theming" "6.2.7"
+    "@storybook/api" "6.2.9"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/router" "6.2.9"
+    "@storybook/theming" "6.2.9"
     core-js "^3.8.2"
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
@@ -3048,19 +3048,19 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/api@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/api/-/api-6.2.7.tgz#5417dfe0c5a7a49a4e47f5a4c2be7a1bbdb7d5b3"
-  integrity sha1-VBff4MWnpJpOR/Wkwr56G7231bM=
+"@storybook/api@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/api/-/api-6.2.9.tgz#a9b46569192ad5d8da6435c9d63dc4b0c8463b51"
+  integrity sha1-qbRlaRkq1djaZDXJ1j3EsMhGO1E=
   dependencies:
     "@reach/router" "^1.3.4"
-    "@storybook/channels" "6.2.7"
-    "@storybook/client-logger" "6.2.7"
-    "@storybook/core-events" "6.2.7"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
     "@storybook/csf" "0.0.1"
-    "@storybook/router" "6.2.7"
+    "@storybook/router" "6.2.9"
     "@storybook/semver" "^7.3.2"
-    "@storybook/theming" "6.2.7"
+    "@storybook/theming" "6.2.9"
     "@types/reach__router" "^1.3.7"
     core-js "^3.8.2"
     fast-deep-equal "^3.1.3"
@@ -3074,10 +3074,10 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/builder-webpack4@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/builder-webpack4/-/builder-webpack4-6.2.7.tgz#5d10454788d412340e63403e9b7a2defafe377f4"
-  integrity sha1-XRBFR4jUEjQOY0A+m3ot76/jd/Q=
+"@storybook/builder-webpack4@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/builder-webpack4/-/builder-webpack4-6.2.9.tgz#dddff0b1b4590a7ba088ce13e7cc42e482f6455d"
+  integrity sha1-3d/wsbRZCnugiM4T58xC5IL2RV0=
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/plugin-proposal-class-properties" "^7.12.1"
@@ -3100,20 +3100,20 @@
     "@babel/preset-env" "^7.12.11"
     "@babel/preset-react" "^7.12.10"
     "@babel/preset-typescript" "^7.12.7"
-    "@storybook/addons" "6.2.7"
-    "@storybook/api" "6.2.7"
-    "@storybook/channel-postmessage" "6.2.7"
-    "@storybook/channels" "6.2.7"
-    "@storybook/client-api" "6.2.7"
-    "@storybook/client-logger" "6.2.7"
-    "@storybook/components" "6.2.7"
-    "@storybook/core-common" "6.2.7"
-    "@storybook/core-events" "6.2.7"
-    "@storybook/node-logger" "6.2.7"
-    "@storybook/router" "6.2.7"
+    "@storybook/addons" "6.2.9"
+    "@storybook/api" "6.2.9"
+    "@storybook/channel-postmessage" "6.2.9"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-api" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/components" "6.2.9"
+    "@storybook/core-common" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/node-logger" "6.2.9"
+    "@storybook/router" "6.2.9"
     "@storybook/semver" "^7.3.2"
-    "@storybook/theming" "6.2.7"
-    "@storybook/ui" "6.2.7"
+    "@storybook/theming" "6.2.9"
+    "@storybook/ui" "6.2.9"
     "@types/node" "^14.0.10"
     "@types/webpack" "^4.41.26"
     autoprefixer "^9.8.6"
@@ -3163,14 +3163,14 @@
     qs "^6.6.0"
     telejson "^5.0.2"
 
-"@storybook/channel-postmessage@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/channel-postmessage/-/channel-postmessage-6.2.7.tgz#4025d3746fac9b1c2264001606c7a361d1144417"
-  integrity sha1-QCXTdG+smxwiZAAWBsejYdEURBc=
+"@storybook/channel-postmessage@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/channel-postmessage/-/channel-postmessage-6.2.9.tgz#ad85573e0a5d6f0cde3504f168d87a73cb0b6269"
+  integrity sha1-rYVXPgpdbwzeNQTxaNh6c8sLYmk=
   dependencies:
-    "@storybook/channels" "6.2.7"
-    "@storybook/client-logger" "6.2.7"
-    "@storybook/core-events" "6.2.7"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
     core-js "^3.8.2"
     global "^4.4.0"
     qs "^6.10.0"
@@ -3185,10 +3185,10 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/channels@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/channels/-/channels-6.2.7.tgz#b6b64e9f7318afe3a005042395356fd0a878001c"
-  integrity sha1-trZOn3MYr+OgBQQjlTVv0Kh4ABw=
+"@storybook/channels@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/channels/-/channels-6.2.9.tgz#a9fd7f25102cbec15fb56f76abf891b7b214e9de"
+  integrity sha1-qf1/JRAsvsFftW92q/iRt7IU6d4=
   dependencies:
     core-js "^3.8.2"
     ts-dedent "^2.0.0"
@@ -3218,16 +3218,16 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/client-api@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/client-api/-/client-api-6.2.7.tgz#7e788314582b9fc09fbd150ef95d0714d5d22b9c"
-  integrity sha1-fniDFFgrn8CfvRUO+V0HFNXSK5w=
+"@storybook/client-api@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/client-api/-/client-api-6.2.9.tgz#f0bb44e9b2692adfbf30d7ff751c6dd44bcfe1ce"
+  integrity sha1-8LtE6bJpKt+/MNf/dRxt1EvP4c4=
   dependencies:
-    "@storybook/addons" "6.2.7"
-    "@storybook/channel-postmessage" "6.2.7"
-    "@storybook/channels" "6.2.7"
-    "@storybook/client-logger" "6.2.7"
-    "@storybook/core-events" "6.2.7"
+    "@storybook/addons" "6.2.9"
+    "@storybook/channel-postmessage" "6.2.9"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
     "@storybook/csf" "0.0.1"
     "@types/qs" "^6.9.5"
     "@types/webpack-env" "^1.16.0"
@@ -3250,10 +3250,10 @@
     core-js "^3.0.1"
     global "^4.3.2"
 
-"@storybook/client-logger@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/client-logger/-/client-logger-6.2.7.tgz#deca6d5b157d6ea22ec8f271399e9d10bb293a2c"
-  integrity sha1-3sptWxV9bqIuyPJxOZ6dELspOiw=
+"@storybook/client-logger@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/client-logger/-/client-logger-6.2.9.tgz#77c1ea39684ad2a2cf6836051b381fc5b354e132"
+  integrity sha1-d8HqOWhK0qLPaDYFGzgfxbNU4TI=
   dependencies:
     core-js "^3.8.2"
     global "^4.4.0"
@@ -3284,15 +3284,15 @@
     react-textarea-autosize "^8.1.1"
     ts-dedent "^2.0.0"
 
-"@storybook/components@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/components/-/components-6.2.7.tgz#03ee5e22c48631fe17829299d2da61bb4e0598ce"
-  integrity sha1-A+5eIsSGMf4XgpKZ0tphu04FmM4=
+"@storybook/components@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/components/-/components-6.2.9.tgz#7189f9715b05720fe083ae8ad014849f14e98e73"
+  integrity sha1-cYn5cVsFcg/gg66K0BSEnxTpjnM=
   dependencies:
     "@popperjs/core" "^2.6.0"
-    "@storybook/client-logger" "6.2.7"
+    "@storybook/client-logger" "6.2.9"
     "@storybook/csf" "0.0.1"
-    "@storybook/theming" "6.2.7"
+    "@storybook/theming" "6.2.9"
     "@types/color-convert" "^2.0.0"
     "@types/overlayscrollbars" "^1.12.0"
     "@types/react-syntax-highlighter" "11.0.5"
@@ -3314,18 +3314,18 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core-client/-/core-client-6.2.7.tgz#3ee8c85035cf0006ef2151f25f215779f20580a4"
-  integrity sha1-PujIUDXPAAbvIVHyXyFXefIFgKQ=
+"@storybook/core-client@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core-client/-/core-client-6.2.9.tgz#3f611947e64dee0a297e512ff974087bc52c1877"
+  integrity sha1-P2EZR+ZN7gopflEv+XQIe8UsGHc=
   dependencies:
-    "@storybook/addons" "6.2.7"
-    "@storybook/channel-postmessage" "6.2.7"
-    "@storybook/client-api" "6.2.7"
-    "@storybook/client-logger" "6.2.7"
-    "@storybook/core-events" "6.2.7"
+    "@storybook/addons" "6.2.9"
+    "@storybook/channel-postmessage" "6.2.9"
+    "@storybook/client-api" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
     "@storybook/csf" "0.0.1"
-    "@storybook/ui" "6.2.7"
+    "@storybook/ui" "6.2.9"
     ansi-to-html "^0.6.11"
     core-js "^3.8.2"
     global "^4.4.0"
@@ -3336,10 +3336,10 @@
     unfetch "^4.2.0"
     util-deprecate "^1.0.2"
 
-"@storybook/core-common@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core-common/-/core-common-6.2.7.tgz#596bfc3e87f5d8299f0e3bd7390de1c54d05a5e6"
-  integrity sha1-WWv8Pof12CmfDjvXOQ3hxU0FpeY=
+"@storybook/core-common@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core-common/-/core-common-6.2.9.tgz#54f8e005733d39c4cb90eec7c17f9ca4dcbeec5f"
+  integrity sha1-VPjgBXM9OcTLkO7HwX+cpNy+7F8=
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/plugin-proposal-class-properties" "^7.12.1"
@@ -3362,7 +3362,7 @@
     "@babel/preset-react" "^7.12.10"
     "@babel/preset-typescript" "^7.12.7"
     "@babel/register" "^7.12.1"
-    "@storybook/node-logger" "6.2.7"
+    "@storybook/node-logger" "6.2.9"
     "@storybook/semver" "^7.3.2"
     "@types/glob-base" "^0.3.0"
     "@types/micromatch" "^4.0.1"
@@ -3397,29 +3397,29 @@
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/core-events@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core-events/-/core-events-6.2.7.tgz#47f9bbbf7f5959eab9ffcf6e2893f09014297608"
-  integrity sha1-R/m7v39ZWeq5/89uKJPwkBQpdgg=
+"@storybook/core-events@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core-events/-/core-events-6.2.9.tgz#4f12947cd15d1eb3c4109923657c012feef521cd"
+  integrity sha1-TxKUfNFdHrPEEJkjZXwBL+71Ic0=
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/core-server@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core-server/-/core-server-6.2.7.tgz#15408617d5bd98187938d5ac79a9456cfea2bc3d"
-  integrity sha1-FUCGF9W9mBh5ONWsealFbP6ivD0=
+"@storybook/core-server@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core-server/-/core-server-6.2.9.tgz#da8b7f043ff59ee6cd2e8631ba8d0f954fdc265a"
+  integrity sha1-2ot/BD/1nubNLoYxuo0PlU/cJlo=
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/plugin-transform-template-literals" "^7.12.1"
     "@babel/preset-react" "^7.12.10"
-    "@storybook/addons" "6.2.7"
-    "@storybook/builder-webpack4" "6.2.7"
-    "@storybook/core-client" "6.2.7"
-    "@storybook/core-common" "6.2.7"
-    "@storybook/node-logger" "6.2.7"
+    "@storybook/addons" "6.2.9"
+    "@storybook/builder-webpack4" "6.2.9"
+    "@storybook/core-client" "6.2.9"
+    "@storybook/core-common" "6.2.9"
+    "@storybook/node-logger" "6.2.9"
     "@storybook/semver" "^7.3.2"
-    "@storybook/theming" "6.2.7"
-    "@storybook/ui" "6.2.7"
+    "@storybook/theming" "6.2.9"
+    "@storybook/ui" "6.2.9"
     "@types/node" "^14.0.10"
     "@types/node-fetch" "^2.5.7"
     "@types/pretty-hrtime" "^1.0.0"
@@ -3570,13 +3570,13 @@
     webpack-hot-middleware "^2.25.0"
     webpack-virtual-modules "^0.2.2"
 
-"@storybook/core@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core/-/core-6.2.7.tgz#7eb7727523134303ab2733a196bb71b53dea4e9f"
-  integrity sha1-frdydSMTQwOrJzOhlrtxtT3qTp8=
+"@storybook/core@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/core/-/core-6.2.9.tgz#e32e72b3bdb44384f5f0ff93ad1a483acd033b4b"
+  integrity sha1-4y5ys720Q4T18P+TrRpIOs0DO0s=
   dependencies:
-    "@storybook/core-client" "6.2.7"
-    "@storybook/core-server" "6.2.7"
+    "@storybook/core-client" "6.2.9"
+    "@storybook/core-server" "6.2.9"
 
 "@storybook/csf@0.0.1":
   version "0.0.1"
@@ -3596,10 +3596,10 @@
     npmlog "^4.1.2"
     pretty-hrtime "^1.0.3"
 
-"@storybook/node-logger@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/node-logger/-/node-logger-6.2.7.tgz#2329042e44eba1efcc6bb0689c8566a555d5b0ee"
-  integrity sha1-IykELkTroe/Ma7BonIVmpVXVsO4=
+"@storybook/node-logger@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/node-logger/-/node-logger-6.2.9.tgz#c67d8d7684514b8d00207502e8a9adda0ee750e5"
+  integrity sha1-xn2NdoRRS40AIHUC6Kmt2g7nUOU=
   dependencies:
     "@types/npmlog" "^4.1.2"
     chalk "^4.1.0"
@@ -3665,13 +3665,13 @@
     memoizerific "^1.11.3"
     qs "^6.6.0"
 
-"@storybook/router@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/router/-/router-6.2.7.tgz#b6bfedc237f0b3834f8fa9eb724d91bd3eaff832"
-  integrity sha1-tr/twjfws4NPj6nrck2RvT6v+DI=
+"@storybook/router@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/router/-/router-6.2.9.tgz#547543031dd8330870bb6b473dcf7e51982e841c"
+  integrity sha1-VHVDAx3YMwhwu2tHPc9+UZguhBw=
   dependencies:
     "@reach/router" "^1.3.4"
-    "@storybook/client-logger" "6.2.7"
+    "@storybook/client-logger" "6.2.9"
     "@types/reach__router" "^1.3.7"
     core-js "^3.8.2"
     fast-deep-equal "^3.1.3"
@@ -3724,15 +3724,15 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/theming@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/theming/-/theming-6.2.7.tgz#7dbbcde537099b1fe65ec63a517fd54a3dd587f5"
-  integrity sha1-fbvN5TcJmx/mXsY6UX/VSj3Vh/U=
+"@storybook/theming@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/theming/-/theming-6.2.9.tgz#16bf40180861f222c7ed1d80abd5d1e3cb315660"
+  integrity sha1-Fr9AGAhh8iLH7R2Aq9XR48sxVmA=
   dependencies:
     "@emotion/core" "^10.1.1"
     "@emotion/is-prop-valid" "^0.8.6"
     "@emotion/styled" "^10.0.27"
-    "@storybook/client-logger" "6.2.7"
+    "@storybook/client-logger" "6.2.9"
     core-js "^3.8.2"
     deep-object-diff "^1.1.0"
     emotion-theming "^10.0.27"
@@ -3778,21 +3778,21 @@
     resolve-from "^5.0.0"
     store2 "^2.7.1"
 
-"@storybook/ui@6.2.7":
-  version "6.2.7"
-  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/ui/-/ui-6.2.7.tgz#ff526d02d5785dd9cfbcb9bd6688b7293abe271f"
-  integrity sha1-/1JtAtV4XdnPvLm9Zoi3KTq+Jx8=
+"@storybook/ui@6.2.9":
+  version "6.2.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@storybook/ui/-/ui-6.2.9.tgz#25cdf7ae2ef38ab337570c2377fda1da999792e7"
+  integrity sha1-Jc33ri7zirM3Vwwjd/2h2pmXkuc=
   dependencies:
     "@emotion/core" "^10.1.1"
-    "@storybook/addons" "6.2.7"
-    "@storybook/api" "6.2.7"
-    "@storybook/channels" "6.2.7"
-    "@storybook/client-logger" "6.2.7"
-    "@storybook/components" "6.2.7"
-    "@storybook/core-events" "6.2.7"
-    "@storybook/router" "6.2.7"
+    "@storybook/addons" "6.2.9"
+    "@storybook/api" "6.2.9"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/components" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/router" "6.2.9"
     "@storybook/semver" "^7.3.2"
-    "@storybook/theming" "6.2.7"
+    "@storybook/theming" "6.2.9"
     "@types/markdown-to-jsx" "^6.11.3"
     copy-to-clipboard "^3.3.1"
     core-js "^3.8.2"
