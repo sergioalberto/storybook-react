@@ -20,6 +20,11 @@ export default {
     component: PureInboxScreen,
     decorators: [story => <Provider store={store}>{story()}</Provider>],
     title: 'InboxScreen',
+    parameters: {
+        a11y: {
+            disable: true
+        },
+    },
 };
 
 const Template = args => <PureInboxScreen {...args} />;

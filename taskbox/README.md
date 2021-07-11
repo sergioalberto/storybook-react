@@ -1,26 +1,11 @@
 
-<p align="center">
-  <a href="https://www.chromatic.com/">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
-  </a>
-</p>
-
 <h1 align="center">
-  Chromatic's Intro to Storybook React template
+  Storybook React Example
 </h1>
 
 This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
 
 ## 🚅  Quick start
-
-1.  **Create the application.**
-
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
-
-    ```shell
-    # Clone the template
-    npx degit chromaui/intro-storybook-react-template taskbox
-    ```
 
 1.  **Install the dependencies.**
 
@@ -75,6 +60,22 @@ A quick look at the top-level files and directories included with this template.
 8. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
 
 9. **`README.md`**: A text file containing useful reference information about the project.
+
+## Accessibility testing
+```shell
+yarn storybook:axe
+
+or
+
+# You will need to start Storybook before running this command.
+yarn test:a11y
+```
+### Sources
+- https://www.npmjs.com/package/@storybook/addon-a11y
+- https://medium.com/storybookjs/instant-accessibility-qa-linting-in-storybook-4a474b0f5347
+- https://github.com/chanzuckerberg/axe-storybook-testing
+- https://storybook.js.org/addons/storybook-a11y-report
+- https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#getting-started
 
 ## Contribute
 

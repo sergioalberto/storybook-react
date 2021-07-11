@@ -21,6 +21,7 @@
     "react-redux": "^7.2.3",
     "react-scripts": "4.0.1",
     "redux": "^4.0.5",
+    "storybook-a11y-report": "^0.0.11",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -30,7 +31,9 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token 2e6f1dd8b449"
+    "chromatic": "npx chromatic --project-token 2e6f1dd8b449",
+    "test:a11y": "npx storybook-a11y-report",
+    "storybook:axe": "build-storybook && axe-storybook"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +54,8 @@
     ]
   },
   "devDependencies": {
+    "@chanzuckerberg/axe-storybook-testing": "^3.0.2",
+    "@storybook/addon-a11y": "^6.3.4",
     "@storybook/addon-actions": "^6.1.15",
     "@storybook/addon-essentials": "^6.1.15",
     "@storybook/addon-links": "^6.1.15",
