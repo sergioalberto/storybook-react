@@ -25,3 +25,5 @@ yarn-error.log*
 
 __report__/
 storybook-static/
+
+report/

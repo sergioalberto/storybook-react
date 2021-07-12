@@ -61,6 +61,31 @@ A quick look at the top-level files and directories included with this template.
 
 9. **`README.md`**: A text file containing useful reference information about the project.
 
+## Visual Regression Testing
+```shell
+# You will need to start Storybook before running this command.
+yarn creevey --ui
+yarn creevey
+
+# Approve all images from report directory
+yarn creevey --update
+
+or
+
+yarn loki test
+# Review changes in difference folder
+# Approve changes and update references
+yarn loki approve
+```
+
+### Sources
+- https://github.com/wKich/creevey
+- https://github.com/wKich/creevey/blob/master/docs/config.md
+- https://github.com/wKich/creevey/blob/master/docs/tests.md
+- https://github.com/oblador/loki
+- https://loki.js.org/getting-started.html
+- https://loki.js.org/flaky-tests.html
+
 ## Accessibility testing
 ```shell
 yarn storybook:axe
