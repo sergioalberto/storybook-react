@@ -17,6 +17,9 @@ This template ships with the main React and Storybook configuration files you'll
 
     # Install the dependencies
     yarn
+    
+    # Start the app
+    yarn start
     ```
 
 1.  **Open the source code and start editing!**
@@ -69,9 +72,9 @@ yarn creevey
 
 # Approve all images from report directory
 yarn creevey --update
+```
 
-or
-
+```shell
 yarn loki test
 # Review changes in difference folder
 # Approve changes and update references
@@ -89,11 +92,16 @@ yarn loki approve
 ## Accessibility testing
 ```shell
 yarn storybook:axe
-
-or
-
+```
+```shell
 # You will need to start Storybook before running this command.
 yarn test:a11y
+```
+```shell
+# Source https://github.com/liip/TheA11yMachine
+./node_modules/.bin/a11ym-dashboard --root a11ym_output/
+# You will need to start Storybook before running this command.
+./node_modules/.bin/a11ym --standards WCAG2AA --output-directory a11ym_output/`date +%s`/ http://localhost:6006/?path=/story/inboxscreen--default http://localhost:6006/?path=/story/tasklist--default http://localhost:6006/?path=/story/example-header--logged-out http://localhost:6006/?path=/story/example-page--logged-out
 ```
 ### Sources
 - https://www.npmjs.com/package/@storybook/addon-a11y
