@@ -2,6 +2,10 @@ let assert = require('assert');
 const AxeBuilder = require('@axe-core/webdriverio').default;
 import { assertAccessible } from '@sa11y/wdio';
 const { evaluate } = require('aatt');
+import { source } from 'axe-core';
+
+// Advoid type checking for axe
+declare const axe: any;
 
 describe('accessibility testing to WebdriverIO', () => {
 
@@ -58,5 +62,25 @@ describe('accessibility testing to WebdriverIO', () => {
             });
         });
         assert.equal(results.filter((result: any) => result.impact == 'serious').length, 0, 'Expected no serious violations');
+    });
+
+    it('test with axe-core', async () => {
+        await browser.url('https://webdriver.io');
+
+        await browser.execute(source);
+
+        // https://github.com/dequelabs/axe-core/blob/develop/doc/API.md
+        const options = { runOnly: { type: 'tag', values: ['wcag2a'] } };
+        // run inside browser and get results
+        // @ts-ignore
+        const results: any = await browser.executeAsync((options, done) => {
+            axe.run(document, options, function(err: any, results: any) {
+                if (err) throw err;
+                done(results);
+            });
+        }, options);
+
+        console.log(results.violations);
+        assert.equal(results.violations.length, 0, `${await browser.getUrl()} doesn't pass Accessibility test`);
     });
 });

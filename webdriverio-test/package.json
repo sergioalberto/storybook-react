@@ -23,6 +23,7 @@
     "wdio-chromedriver-service": "^7.2.0",
     "@axe-core/webdriverio": "^4.2.2",
     "@sa11y/wdio": "^2.0.0-alpha.0",
-    "aatt": "^1.0.2"
+    "aatt": "^1.0.2",
+    "axe-core": "^4.3.3"
   }
 }
