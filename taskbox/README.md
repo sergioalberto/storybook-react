@@ -91,11 +91,12 @@ yarn loki approve
 
 ## Accessibility testing
 ```shell
-yarn storybook:axe
-```
-```shell
 # You will need to start Storybook before running this command.
 yarn test:a11y
+```
+![axe-storybook-testing](images/a11y-storybook.png)
+```shell
+yarn storybook:axe
 ```
 ```shell
 # Source https://github.com/liip/TheA11yMachine
@@ -103,6 +104,8 @@ yarn test:a11y
 # You will need to start Storybook before running this command.
 ./node_modules/.bin/a11ym --standards WCAG2AA --output-directory a11ym_output/`date +%s`/ http://localhost:6006/?path=/story/inboxscreen--default http://localhost:6006/?path=/story/tasklist--default http://localhost:6006/?path=/story/example-header--logged-out http://localhost:6006/?path=/story/example-page--logged-out
 ```
+![TheA11yMachine](images/a11y-machine.png)
+
 ### Sources
 - https://www.npmjs.com/package/@storybook/addon-a11y
 - https://medium.com/storybookjs/instant-accessibility-qa-linting-in-storybook-4a474b0f5347
