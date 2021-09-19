@@ -22,7 +22,8 @@ export default {
     title: 'InboxScreen',
     parameters: {
         a11y: {
-            disable: true
+            disable: false,
+            element: '#root',
         },
     },
 };
