@@ -28,3 +28,4 @@ storybook-static/
 
 report/
 a11ym_output/
+.lighthouseci/

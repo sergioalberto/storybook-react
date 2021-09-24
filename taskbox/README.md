@@ -113,6 +113,21 @@ yarn storybook:axe
 - https://storybook.js.org/addons/storybook-a11y-report
 - https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#getting-started
 
+## Performance testing
+```shell
+npm install -g @lhci/cli
+yarn
+yarn build
+
+# It uses this config 'lighthouserc.js' file
+lhci autorun
+```
+
+### Source
+- https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md
+- https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md
+
+
 ## Contribute
 
 If you encounter an issue with the template, we encourage you to open an issue in this template's repository.

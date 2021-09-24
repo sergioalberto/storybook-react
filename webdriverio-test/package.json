@@ -17,6 +17,7 @@
     "@wdio/spec-reporter": "^7.10.1",
     "@wdio/dot-reporter": "^7.10.1",
     "@wdio/junit-reporter": "^7.12.1",
+    "@wdio/devtools-service": "^7.12.5",
     "chromedriver": "^93.0.1",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.2",
@@ -24,6 +25,8 @@
     "@axe-core/webdriverio": "^4.2.2",
     "@sa11y/wdio": "^2.0.0-alpha.0",
     "aatt": "^1.0.2",
-    "axe-core": "^4.3.3"
+    "axe-core": "^4.3.3",
+    "lighthouse": "^8.5.0",
+    "puppeteer": "^10.4.0"
   }
 }
