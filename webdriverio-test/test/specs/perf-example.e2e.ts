@@ -43,7 +43,14 @@ describe('performance testing with devtools', async () => {
     it('test perf with lighthouse.js', async () => {
         // @ts-ignore
         const port = browser.capabilities["goog:chromeOptions"].debuggerAddress.split(":")[1];
-        const options = {logLevel: 'info', output: 'html', onlyCategories: ['performance', 'accessibility'], port: port};
+        // Examples: https://github.com/GoogleChrome/lighthouse/blob/master/docs/configuration.md
+        //           Audits: https://github.com/GoogleChrome/lighthouse/blob/master/lighthouse-core/config/default-config.js#L184
+        const options = {
+            logLevel: 'info',
+            output: 'html',
+            onlyCategories: ['accessibility'],
+            port: port
+        };
         const runnerResult = await lighthouse('http://localhost:6006/iframe.html?id=inboxscreen--default&viewMode=story', options);
 
         console.log('Report is done for', runnerResult.lhr.finalUrl);
